@@ -1,9 +1,9 @@
 import java.io.*;
 import java.util.Scanner;
-class drag {
+class frag {
 	public static void main(String args[]) { 
 		boolean memebeam = true;
-		System.out.println(" ~ Rectangle ~");
+		System.out.println("   ~ Primes ~");
 		System.out.print("Entering 0 will exit.");
 		Scanner meme = new Scanner(System.in);
 		String yes = "yes";
@@ -27,17 +27,14 @@ class drag {
 					System.exit(0);
 				}
 				memebeam = true;
-			}else {
-				System.out.print("\n");
+			}
+			if (b == 1)else {
+				int d = 0;
+				System.out.println("Prime #" + b +": ");
 				for(int i = 1; i <= b; i++) {
-					for(int j = 1; j <= b; j++) {
-						if(j == 1 || j == b || i == 1 || i == b) {
-							System.out.print("*");
-						}else{
-							System.out.print(" ");
-						}
-					}
-					System.out.print("\n");
+					d++;
+					for(int c = 2; c + d)
+				}
 				}
 				System.out.print("\n");
 				System.out.print("Again? (Yes to keep going, else will quit) \n>");
@@ -49,7 +46,6 @@ class drag {
 				memebeam = true;
 			}
 		}
-	}
 } 
 //There are better things to do in life than to stare at this computer screen and read code from this program. Frankly, I don't see the point of doing this on your part. I do not see any benefit or positive incentive that you, the reader, get from looking at this code. Like come on, is there anything better you could be doing? I honestly don't even know who is still reading this because this is probably going to end up becoming a long winded rant about about climate change. 
 /*

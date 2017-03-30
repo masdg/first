@@ -12,7 +12,7 @@ class srag {
 			while(memebeam) {
 				try{
 					System.out.print("\n> ");
-					b = Integer.parseInt(meme.nextLine());
+					b = Math.abs(Integer.parseInt(meme.nextLine()));
 					memebeam = false;
 				}catch(Exception x) {
 					System.out.println("\nInvalid input (Must be integer! Negatives will \nautomatically be converted to positive)");
